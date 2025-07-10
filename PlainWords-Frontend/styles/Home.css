@@ -1,0 +1,70 @@
+/* src/styles/Home.css */
+
+.home-container {
+    padding: 40px 80px;
+    background: linear-gradient(to right, #e3f2fd, #f3e5f5);
+    min-height: 100vh;
+  }
+  
+  .home-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .home-header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-header p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .post-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s ease;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .post-author {
+    font-size: 0.9rem;
+    color: gray;
+    margin-bottom: 10px;
+  }
+  
+  .post-footer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .read-more {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more:hover {
+    text-decoration: underline;
+  }
+  
